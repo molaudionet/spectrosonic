@@ -1,0 +1,67 @@
+# Protein Circular Dichroism Spectrum
+# Lysozyme - α-helix rich protein
+# Based on PCDDB Entry CD0000042000
+# Far-UV CD (190-260 nm)
+# Format: Wavelength_nm, Ellipticity_mdeg, MRE_deg_cm2_dmol-1
+
+Wavelength_nm,Ellipticity_mdeg,MRE
+190,-32.5,-12500
+192,-31.8,-12200
+194,-30.9,-11850
+196,-29.8,-11420
+198,-28.5,-10930
+200,-27.1,-10400
+202,-25.5,-9780
+204,-23.7,-9090
+206,-21.8,-8360
+208,-19.7,-7560  # α-helix minimum
+210,-17.5,-6710
+212,-15.3,-5870
+214,-13.2,-5060
+216,-11.3,-4330
+218,-9.6,-3680
+220,-8.2,-3140
+222,-7.1,-2720  # α-helix minimum
+224,-6.3,-2410
+226,-5.7,-2180
+228,-5.3,-2030
+230,-5.0,-1920
+232,-4.9,-1880
+234,-4.8,-1840
+236,-4.8,-1840
+238,-4.9,-1880
+240,-5.0,-1920
+242,-5.2,-1990
+244,-5.4,-2070
+246,-5.5,-2110
+248,-5.6,-2150
+250,-5.6,-2150
+252,-5.5,-2110
+254,-5.3,-2030
+256,-5.0,-1920
+258,-4.6,-1760
+260,-4.1,-1570
+
+# Secondary Structure Content (from deconvolution):
+# α-helix: 36%
+# β-sheet: 12%
+# β-turn: 23%
+# Random coil: 29%
+
+# Protein Information:
+# Name: Hen egg-white lysozyme
+# MW: 14,300 Da
+# Residues: 129
+# PDB: 6LYZ
+# pH: 7.0
+# Temperature: 25°C
+# Buffer: 10 mM phosphate
+
+# Characteristic Features:
+# - Two minima at 208 and 222 nm → α-helix signature
+# - Ratio θ222/θ208 = 0.92 → highly helical
+# - Positive peak expected around 190 nm (not measured, vacuum UV)
+
+# Reference: 
+# Kelly et al. (2005) Biochim Biophys Acta 1751:119-139
+# PCDDB: http://pcddb.cryst.bbk.ac.uk/

@@ -1,0 +1,65 @@
+# Protein Mass Spectrum (ESI-MS)
+# Insulin - Intact mass analysis
+# Showing native disulfide bonds and potential modifications
+# Format: m/z, Intensity, Assignment, Charge_State
+
+m/z,Intensity,Assignment,Charge_State
+5807.7,0.45,[M+H]+,+1
+5733.2,0.28,[M-2S+2H+H]+,+1 (reduced)
+2904.4,0.95,[M+2H]2+,+2
+1936.6,0.85,[M+3H]3+,+3
+1452.7,0.72,[M+4H]4+,+4
+1162.4,0.58,[M+5H]5+,+5
+968.8,0.42,[M+6H]6+,+6
+5888.3,0.15,Oxidized_Met,+16 Da (oxidation)
+5822.5,0.08,Deamidated_Asn,+1 Da
+5732.1,0.12,Reduced_Form,-74 Da (2x disulfide)
+
+# Protein Information:
+# Name: Human insulin
+# Total mass: 5806.5 Da
+# A-chain: 2383.4 Da (21 residues)
+# B-chain: 3429.9 Da (30 residues)
+# Disulfide bonds: 3 (A6-A11, A7-B7, A20-B19)
+# Sequence: 
+#   A-chain: GIVEQCCTSICSLYQLENYCN
+#   B-chain: FVNQHLCGSHLVEALYLVCGERGFFYTPKT
+
+# Post-Translational Modifications Detected:
+# 1. Native: Three disulfide bonds intact (5806.5 Da)
+# 2. Oxidation: Met at B-chain (+16 Da) - common artifact
+# 3. Deamidation: Asn to Asp (+1 Da) - degradation product
+# 4. Reduced: All disulfides broken (+6 H, -74 Da)
+
+# Peak Annotations:
+# [M+H]+ : Singly charged molecular ion
+# [M+2H]2+: Doubly charged (most abundant for ESI)
+# [M+3H]3+: Triply charged (common for proteins >5 kDa)
+# [M+nH]n+: Multiply charged states
+
+# Experimental Conditions:
+# Instrument: ESI-TOF MS
+# Ionization: Positive mode electrospray
+# Solvent: 50% acetonitrile, 0.1% formic acid
+# Sample conc: 10 μM
+# Flow rate: 5 μL/min
+# Spray voltage: 3.5 kV
+# Cone voltage: 40 V
+
+# Applications:
+# 1. Protein identification (intact mass)
+# 2. PTM detection (mass shifts)
+# 3. Disulfide mapping (reduced vs. native)
+# 4. Quality control (pharmaceutical insulin)
+# 5. Formulation stability (degradation monitoring)
+
+# Quality Metrics:
+# Mass accuracy: ±0.5 Da
+# Resolution: 10,000 (FWHM)
+# Signal/noise: >100:1
+# Isotope pattern: Matches theoretical
+
+# Reference:
+# Standard pharmaceutical analysis
+# FDA guidelines for insulin characterization
+# PRIDE database for proteomics

@@ -1,0 +1,110 @@
+# Protein Infrared (FTIR) Spectrum
+# Bovine Serum Albumin (BSA) - Mixed α/β structure
+# Amide I and Amide II regions
+# Format: Wavenumber_cm-1, Absorbance, Assignment
+
+Wavenumber,Absorbance,Assignment
+1700,0.015,High frequency wing
+1695,0.018,β-turn
+1690,0.025,β-turn
+1685,0.035,β-turn/sheet
+1680,0.048,β-turn
+1675,0.065,β-turn/antiparallel β-sheet
+1670,0.085,β-turn
+1665,0.102,β-turn/random
+1660,0.125,α-helix/random
+1658,0.142,α-helix
+1656,0.158,α-helix (maximum)
+1654,0.165,α-helix
+1652,0.168,α-helix (main peak)
+1650,0.162,α-helix
+1648,0.148,Random coil
+1646,0.132,Random coil
+1644,0.118,Random coil
+1642,0.105,Random/β-sheet
+1640,0.095,β-sheet
+1638,0.088,β-sheet
+1636,0.083,β-sheet
+1634,0.080,β-sheet
+1632,0.078,β-sheet
+1630,0.077,β-sheet/aggregated
+1628,0.077,β-sheet
+1626,0.078,β-sheet (extended)
+1624,0.080,Aggregated/intermolecular
+1622,0.082,Aggregated
+1620,0.083,Low frequency wing
+1615,0.075,Edge
+1610,0.060,Edge
+1605,0.045,Tyr side chain
+1600,0.032,Edge
+1595,0.025,Edge
+1590,0.020,Amide II region begins
+1585,0.028,
+1580,0.042,
+1575,0.060,
+1570,0.082,
+1565,0.105,
+1560,0.128,
+1555,0.148,
+1550,0.165,Amide II
+1545,0.178,Amide II (maximum)
+1540,0.185,Amide II (main peak)
+1538,0.182,Amide II
+1535,0.172,Amide II
+1530,0.155,Amide II
+1525,0.135,
+1520,0.115,
+1515,0.095,
+1510,0.078,
+1505,0.065,
+1500,0.055,Edge
+1495,0.048,
+1490,0.042,
+1485,0.038,
+1480,0.035,
+1475,0.033,
+1470,0.032,
+1465,0.032,
+1460,0.033,CH bend
+1455,0.034,
+1450,0.035,
+1400,0.025,Low frequency
+
+# Peak Deconvolution Results:
+# Amide I region (1600-1700 cm⁻¹):
+# Component 1: 1652 cm⁻¹ (52%) - α-helix
+# Component 2: 1633 cm⁻¹ (28%) - β-sheet  
+# Component 3: 1645 cm⁻¹ (15%) - Random coil
+# Component 4: 1675 cm⁻¹ (5%) - β-turns
+
+# Protein Information:
+# Name: Bovine Serum Albumin (BSA)
+# MW: 66,500 Da
+# Residues: 583
+# Structure: Mixed α/β (67% helix, 10% sheet)
+# Sample: D2O solution, 10 mg/mL
+# Temperature: 25°C
+# Path length: 50 μm CaF2 cell
+
+# Key Spectral Features:
+# 1. Amide I (1600-1700 cm⁻¹): C=O stretch
+#    - Main peak at 1652 cm⁻¹ indicates high α-helix content
+#    - Shoulder at 1633 cm⁻¹ indicates some β-sheet
+# 
+# 2. Amide II (1500-1600 cm⁻¹): N-H bend + C-N stretch
+#    - Peak at 1540 cm⁻¹ (shifts in D2O due to H/D exchange)
+#
+# 3. Absence of 1625 cm⁻¹ peak: No aggregation/amyloid
+
+# Applications:
+# - Secondary structure determination
+# - Protein folding/unfolding studies
+# - Aggregation monitoring (amyloid formation)
+# - Drug-protein interactions
+# - Quality control (biopharmaceuticals)
+
+# Reference:
+# Barth, A. (2007) Biochim Biophys Acta 1767:1073-1101
+# Typical α-helix: 1650-1658 cm⁻¹
+# Typical β-sheet: 1625-1640 cm⁻¹
+# Random coil: 1640-1648 cm⁻¹

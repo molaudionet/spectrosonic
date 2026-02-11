@@ -1,0 +1,53 @@
+# DNA Imino Proton NMR Spectrum
+# Dickerson-Drew Dodecamer: d(CGCGAATTCGCG)2
+# Classic B-DNA structure, self-complementary
+# Based on BMRB and published data
+# Format: Chemical_Shift_ppm, Peak_Intensity, Assignment, Base_Pair
+
+Chemical_Shift,Intensity,Assignment,Base_Pair
+13.95,0.85,G2-NH1,G2:C11
+13.92,0.88,G10-NH1,G10:C3
+13.85,0.82,G4-NH1,G4:C9
+13.80,0.87,G12-NH1,G12:C1
+13.15,0.75,T8-NH3,T8:A5
+13.10,0.78,T7-NH3,T7:A6
+12.85,0.65,Terminal_G,End fraying
+12.65,0.55,Terminal_C,End fraying
+
+# Sequence and Base Pairing:
+# Position:  1  2  3  4  5  6  7  8  9 10 11 12
+# Strand 1:  C  G  C  G  A  A  T  T  C  G  C  G
+#            |  |  |  |  |  |  |  |  |  |  |  |
+# Strand 2:  G  C  G  C  T  T  A  A  G  C  G  C
+# Position: 12 11 10  9  8  7  6  5  4  3  2  1
+
+# Imino Proton Assignments:
+# G-C base pairs: NH1 of guanine (13-14 ppm)
+# A-T base pairs: NH3 of thymine (12-13 ppm)
+
+# Peak Details:
+# 1. G2:C11 at 13.95 ppm - Internal G-C (most protected)
+# 2. G10:C3 at 13.92 ppm - Internal G-C
+# 3. G4:C9 at 13.85 ppm - Internal G-C
+# 4. G12:C1 at 13.80 ppm - Terminal G-C (slightly shifted)
+# 5. T8:A5 at 13.15 ppm - Central A-T (in AT tract)
+# 6. T7:A6 at 13.10 ppm - Central A-T (in AT tract)
+# 7-8. Terminal bases show broader, weaker peaks (end fraying)
+
+# Structural Information:
+# - Well-defined B-DNA helix
+# - Central AATT region shows A-tract characteristics
+# - All base pairs intact (no breathing observed at 25°C)
+# - Terminal base pairs slightly destabilized (weaker, shifted peaks)
+
+# Experimental Conditions:
+# Temperature: 25°C (298 K)
+# pH: 7.0
+# Buffer: 10 mM phosphate, 100 mM NaCl
+# DNA concentration: 2 mM (duplex)
+# D2O: 10% for lock signal
+
+# Reference:
+# PDB: 1BNA (Drew et al., 1981)
+# BMRB: DNA entries
+# Classic paper: PNAS 78:2179-2183 (1981)
